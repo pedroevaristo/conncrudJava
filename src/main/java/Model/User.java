@@ -35,11 +35,6 @@ public class User {
         return password;
     }
 
-    public User setId(int id) {
-        Id = id;
-        return this;
-    }
-
     public User setCompleteName(String completeName) {
         this.completeName = completeName;
         return this;
