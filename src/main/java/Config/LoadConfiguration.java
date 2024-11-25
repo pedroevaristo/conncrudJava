@@ -12,8 +12,5 @@ public class LoadConfiguration {
         Properties propInit = loader.LoaderInforConfig();
         Initialization initialization = new Initialization();
         initialization.InitializationDb(propInit);
-
-
-
     }
 }
